@@ -1,8 +1,8 @@
 // File: C:\Users\jessi\OneDrive\Desktop\nextjs-dashboard\app\dashboard\customers\page.tsx
-import * as entry from '../../../../../app/dashboard/customers/page.js'
+import * as entry from '../../../../../nextjs-dashboard-practice/app/dashboard/customers/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
-type TEntry = typeof import('../../../../../app/dashboard/customers/page.js')
+type TEntry = typeof import('../../../../../nextjs-dashboard-practice/app/dashboard/customers/page.js')
 
 // Check that the entry is a valid entry
 checkFields<Diff<{
