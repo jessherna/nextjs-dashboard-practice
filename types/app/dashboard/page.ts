@@ -1,5 +1,5 @@
 // File: C:\Users\jessi\OneDrive\Desktop\nextjs-dashboard\app\dashboard\page.tsx
-import * as entry from '../../../../nextjs-dashboard-practice/app/dashboard/page'
+import * as entry from '../../../../nextjs-dashboard-practice/app/dashboard/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
 type TEntry = typeof import('../../../../nextjs-dashboard-practice/app/dashboard/page.js')
